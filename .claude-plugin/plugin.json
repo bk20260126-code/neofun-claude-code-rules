@@ -1,0 +1,11 @@
+{
+  "name": "neofun-karpathy-guidelines",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes and make code changes verifiable.",
+  "version": "1.1.0",
+  "author": {
+    "name": "NeoFun"
+  },
+  "license": "MIT",
+  "keywords": ["guidelines", "coding", "review", "verification", "karpathy"],
+  "skills": ["./skills/karpathy-guidelines"]
+}

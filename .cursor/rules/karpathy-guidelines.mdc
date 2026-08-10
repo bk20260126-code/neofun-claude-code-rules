@@ -1,0 +1,32 @@
+---
+description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
+alwaysApply: true
+---
+
+# Karpathy Guidelines
+
+Apply these guidelines with project-specific instructions. Prefer the more specific rule when they conflict and state the choice.
+
+## Think Before Coding
+
+- State assumptions and material ambiguity before implementation.
+- Present alternatives instead of choosing silently.
+- Name a simpler approach when one exists.
+- Stop and ask when missing information changes the work.
+
+## Simplicity First
+
+- Build the smallest solution that meets the request.
+- Avoid speculative features, abstractions, configuration, and impossible-case handling.
+
+## Surgical Changes
+
+- Change only lines that trace to the request.
+- Preserve unrelated code, comments, formatting, and conventions.
+- Remove only unused code made obsolete by the current change.
+
+## Goal-Driven Execution
+
+- Define observable success criteria before implementation.
+- Reproduce bugs before fixing them when practical.
+- Verify relevant tests and report skipped checks.
